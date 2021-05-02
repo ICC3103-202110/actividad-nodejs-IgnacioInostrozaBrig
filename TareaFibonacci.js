@@ -1,3 +1,7 @@
+//Fibonacci Calculator ver1.0
+
+
+//For user inputs
 const readline = require('readline');
 
 const rl = readline.createInterface({
@@ -5,6 +9,7 @@ const rl = readline.createInterface({
     output: process.stdout
   });  
 
+//Fibonacci Sequence function
 function fibo(number) {
     limit = number;
     i = 1;
@@ -46,3 +51,5 @@ rl.question('\nInput a number: \n', (answer) => {
         rl.close();
         }
 });
+
+//Coded by: Ignacio Inostroza Brignardello
