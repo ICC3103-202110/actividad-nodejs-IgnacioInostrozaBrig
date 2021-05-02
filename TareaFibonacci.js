@@ -39,7 +39,7 @@ function fibo(number) {
 }
 // Main code
 
-rl.question('\nInput a number: \n', (answer) => {
+rl.question('\nPlease enter a number: \n', (answer) => {
     //If the input is invalid
     if (isNaN(answer)) {
         console.log('\nInvalid input, please try again\n');
