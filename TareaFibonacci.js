@@ -1,4 +1,4 @@
-//Fibonacci Calculator ver1.1
+//Fibonacci Calculator ver1.3
 
 //For user inputs
 const readline = require('readline');
